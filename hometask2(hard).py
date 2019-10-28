@@ -27,4 +27,3 @@ for i in cocktails:
      if b == 'лосось':
       i.remove(b)
 print('Сегодня в вашем коктейле будет: ', random.choice(cocktails))
-#
