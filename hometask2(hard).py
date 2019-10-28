@@ -11,7 +11,6 @@ for i in numbers:
     else:
         print(i,"не делится на 5, продолжим поиск")
 
-
 # задание 2
 import random
 cocktails = [["мартини","грейпфрутовый сок","жасмин","тоник","лосось"],
@@ -27,4 +26,3 @@ for i in cocktails:
      if b == 'лосось':
       i.remove(b)
 print('Сегодня в вашем коктейле будет: ', random.choice(cocktails))
-
