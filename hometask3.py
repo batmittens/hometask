@@ -88,13 +88,16 @@ for f in nick:
 nickn = (len(new4))
 
 
-if katen > pauln and katen > janen and katen > nickn:
+r = [pauln, katen, janen, nickn]
+r=max(r)
+
+if r == katen :
     print("kate has the best review")
-elif pauln > katen and pauln > janen and pauln > nickn:
+elif r == pauln:
     print("paul has the best review")
-elif janen > pauln and janen > katen and janen > nickn:
+elif r == janen:
     print("jane has the best review")
-elif nickn > pauln and nickn > janen and nickn > katen:
+elif r == nickn:
     print("nick has the best review")
 else :
     print("can't decide")
