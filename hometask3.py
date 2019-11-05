@@ -90,7 +90,6 @@ nickn = (len(new4))
 
 r = [pauln, katen, janen, nickn]
 r=max(r)
-
 if r == katen :
     print("kate has the best review")
 elif r == pauln:
